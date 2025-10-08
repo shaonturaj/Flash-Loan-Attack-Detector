@@ -1979,47 +1979,6 @@ This project addresses real DeFi security challenges:
 
 </div>
 
----
-
-## 🎯 Roadmap
-
-### Phase 1: Foundation ✅ COMPLETE
-
-- [x] Core detection logic
-- [x] Risk scoring algorithm
-- [x] Multi-level alerts
-- [x] On-chain storage
-- [x] Hoodi testnet deployment
-- [x] Documentation
-
-### Phase 2: Enhancement 🚧 IN PROGRESS
-
-- [ ] Multi-protocol support (Aave, Compound, dYdX)
-- [ ] Machine learning risk prediction
-- [ ] Historical pattern analysis
-- [ ] Web dashboard
-- [ ] API endpoints
-- [ ] Email/Telegram notifications
-
-### Phase 3: Advanced Features 📅 PLANNED
-
-- [ ] Cross-chain monitoring
-- [ ] Oracle manipulation detection
-- [ ] Reentrancy attack detection
-- [ ] MEV protection
-- [ ] Integration with major DeFi protocols
-- [ ] Real-time price impact analysis
-
-### Phase 4: Production 🎯 FUTURE
-
-- [ ] Mainnet deployment (after audit)
-- [ ] Professional security audit
-- [ ] Gas optimization phase 2
-- [ ] DAO governance
-- [ ] Insurance protocol partnerships
-- [ ] Enterprise support
-
----
 
 ## 📞 Contact & Support
 
