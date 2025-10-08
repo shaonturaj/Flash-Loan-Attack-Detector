@@ -186,31 +186,7 @@ This trap provides:
 
 ---
 
-## 🏛️ Architecture
 
-<div align="center">
-
-```mermaid
-graph TB
-    A[Blockchain Transactions] -->|Monitor| B[Flash Loan Detector]
-    B -->|Detect Large Loan| C{Amount > 100k?}
-    C -->|Yes| D[Calculate Risk Score]
-    C -->|No| E[Ignore]
-    D --> F{Risk Score >= 30?}
-    F -->|Yes| G[Classify Severity]
-    F -->|No| E
-    G --> H[Record Alert On-Chain]
-    H --> I[Flag Address if Critical]
-    H --> J[Emit Event]
-    J --> K[Notify Operators]
-    
-    style B fill:#4CAF50
-    style D fill:#FF9800
-    style G fill:#F44336
-    style H fill:#2196F3
-```
-
-</div>
 
 ### System Components
 
